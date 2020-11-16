@@ -1,0 +1,250 @@
+/*----- Navigation -----*/
+.navigation {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: black;
+}
+
+.navigation__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-logo {
+  width: 50px;
+  height: 50px;
+}
+
+main {
+  padding-top: 73px;
+}
+
+/*----- Banner -----*/
+.banner {
+  width: 100%;
+  height: 50vh;
+  padding: 75px 0;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  animation: banner 10s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes banner {
+  0%,
+  30% {
+    background-image: url("../assets/banner-1.jpeg");
+    opacity: 1;
+  }
+
+  35%,
+  65% {
+    background-image: url("../assets/banner-2.jpeg");
+    opacity: 1;
+  }
+
+  70%,
+  100% {
+    opacity: 1;
+    background-image: url("../assets/banner-1.jpeg");
+  }
+}
+
+.banner__content {
+  text-align: center;
+  font-family: "Paytone One", sans-serif;
+  font-size: 2.5rem;
+}
+
+.banner__content .banner-title {
+  color: yellow;
+}
+
+.banner__content .banner-text {
+  color: white;
+}
+
+/*----- Product -----*/
+
+.product-section {
+  padding: 30px 15px 30px;
+  text-align: center;
+}
+
+.product__title {
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+
+.product__title h2 {
+  font-size: 2.7rem;
+}
+
+.product__cards-container {
+  width: 95%;
+  max-width: 480px;
+  margin: 0 auto 30px;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card-info {
+  margin: 20px 0;
+}
+
+.card-info h3 {
+  margin-bottom: 8px;
+  font-size: 2.6rem;
+}
+
+.card-info p {
+  margin: 16px 0 6px 0;
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #6e6e6e;
+}
+
+.card-info span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #f0542c;
+}
+
+.product-more {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.product__button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #f0542c;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  color: #f0542c;
+}
+
+/*----- Footer -----*/
+.footer {
+  width: 100%;
+  padding: 60px 15px 30px;
+  background: #f5fbff;
+}
+
+.footer__city-card {
+  max-width: 320px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer__city-card h3 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+}
+
+.footer__city-card p {
+  margin-bottom: 13px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6e6e6e;
+}
+
+.footer__city-card span {
+  color: #f0542c;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.footer-subscription {
+  margin-bottom: 30px;
+}
+
+.footer-subscription h3 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+}
+
+.footer-form {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.footer-form input {
+  width: 100%;
+  height: 50px;
+  background: #f5fbff;
+  padding-left: 20px;
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 30px;
+}
+
+.footer-form button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  padding: 0 22px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  background: #f0542c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-subscription p {
+  font-size: 16px;
+  color: #6e6e6e;
+  line-height: 26px;
+}
+
+.footer-social {
+  margin-top: 30px;
+}
+
+.footer-social ul {
+  text-align: center;
+}
+
+.footer-social li {
+  display: inline-block;
+}
+
+.footer-social li a {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px dashed #f0542c;
+  border-radius: 50%;
+  color: #f0542c;
+}
+
+.footer-copyright {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #e7e4e0;
+}
+
+.footer-copyright p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #919191;
+}
