@@ -2,6 +2,11 @@
   font-size: 2.5rem;
 }
 
+.navigation__seeker input {
+  display: block;
+  margin: 0 auto;
+}
+
 .banner {
   padding: 120px 0;
 }

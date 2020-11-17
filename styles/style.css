@@ -29,24 +29,28 @@
   font-size: 2rem;
 }
 
-.navigation__seeker {
-  display: none;
-  position: absolute;
-  top: 73px;
-  left: 0px;
-  width: 100%;
-  border-radius: 30px;
-  background-color: white;
-}
-
-.navigation__seeker:active {
+.active {
   display: block;
 }
 
-.navigation__seeker input {
+.hidde {
+  display: none;
+}
+
+.navigation__seeker {
+  position: absolute;
+  top: 72px;
+  left: 0px;
   width: 100%;
+  padding: 12px 14px;
+  background-color: black;
+}
+
+.navigation__seeker .navigation-input {
+  width: 100%;
+  max-width: 600px;
   height: 50px;
-  background: #f5fbff;
+  background-color: #f5fbff;
   padding-left: 20px;
   font-size: 15px;
   border: 1px solid #e8e8e8;
