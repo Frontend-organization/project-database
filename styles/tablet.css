@@ -18,12 +18,12 @@
 .container-grid {
   display: grid;
   grid-template-columns: 330px 330px;
-  grid-column-gap: 30px;
+  grid-gap: 40px;
   justify-content: center;
 }
 
 .product__card-detail {
-  text-align: left;
+  text-align: center;
 }
 
 .footer__cities {
