@@ -1,0 +1,26 @@
+.product__card-detail {
+  display: flex;
+  align-items: center;
+}
+
+.card-info {
+  padding-left: 15px;
+}
+
+.footer-container-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__city-card {
+  margin: 0 50px;
+}
+
+.footer-subscription {
+  width: 320px;
+}
+
+.container-grid {
+  grid-template-columns: 450px 450px;
+  grid-column-gap: 30px;
+}

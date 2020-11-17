@@ -1,6 +1,7 @@
 /*----- Navigation -----*/
 .navigation {
   position: fixed;
+  z-index: 9;
   width: 100%;
   height: auto;
   padding: 10px;
@@ -15,6 +16,41 @@
 .navigation-logo {
   width: 50px;
   height: 50px;
+}
+
+.navigation__search {
+  align-self: center;
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.navigation__button i {
+  font-size: 2rem;
+}
+
+.navigation__seeker {
+  display: none;
+  position: absolute;
+  top: 73px;
+  left: 0px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.navigation__seeker:active {
+  display: block;
+}
+
+.navigation__seeker input {
+  width: 100%;
+  height: 50px;
+  background: #f5fbff;
+  padding-left: 20px;
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 30px;
 }
 
 main {
@@ -86,8 +122,7 @@ main {
 }
 
 .product__cards-container {
-  width: 95%;
-  max-width: 480px;
+  min-width: 290px;
   margin: 0 auto 30px;
 }
 
@@ -126,11 +161,17 @@ main {
 
 .product__button {
   width: 100%;
-  padding: 12px;
+  padding: 22px 44px;
   border: 1px solid #f0542c;
   border-radius: 50px;
   font-size: 1.6rem;
   color: #f0542c;
+  transition: background-color ease-in-out 0.4s;
+}
+
+.product__button:hover {
+  color: #fff;
+  background-color: #f0542c;
 }
 
 /*----- Footer -----*/
@@ -138,12 +179,12 @@ main {
   width: 100%;
   padding: 60px 15px 30px;
   background: #f5fbff;
+  text-align: center;
 }
 
 .footer__city-card {
   max-width: 320px;
-  margin-bottom: 30px;
-  text-align: center;
+  margin: 0 auto 30px;
 }
 
 .footer__city-card h3 {
@@ -167,7 +208,8 @@ main {
 }
 
 .footer-subscription {
-  margin-bottom: 30px;
+  max-width: 720px;
+  margin: 0 auto 30px;
 }
 
 .footer-subscription h3 {
@@ -216,6 +258,8 @@ main {
 }
 
 .footer-social ul {
+  max-width: 350px;
+  margin: 0 auto;
   text-align: center;
 }
 
