@@ -59,6 +59,7 @@
 
 main {
   padding-top: 73px;
+  background-color: black;
 }
 
 /*----- Banner -----*/
@@ -120,6 +121,7 @@ main {
 
 .product-section {
   padding: 30px 15px 30px;
+  background-color: white;
   text-align: center;
 }
 
