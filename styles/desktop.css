@@ -1,3 +1,9 @@
+.product__card-result {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
 .product__card-detail {
   display: flex;
   align-items: center;
