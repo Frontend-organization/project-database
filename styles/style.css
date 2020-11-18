@@ -57,6 +57,24 @@
   border-radius: 30px;
 }
 
+.search-result-container {
+  max-width: 600px;
+  max-height: calc(100vh - 160px);
+  margin: 15px auto;
+  background-color: white;
+  overflow: auto;
+}
+
+.product__card-result {
+  margin: 10px auto 10px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 28px;
+  background-color: white;
+  color: #6e6e6e;
+}
+
 main {
   padding-top: 73px;
   background-color: black;
