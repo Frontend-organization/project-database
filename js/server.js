@@ -1,6 +1,6 @@
 const platesContainer = document.querySelector(".container-grid");
 
-fetch("http://923148ce1ffb.ngrok.io/plates", {
+fetch("https://923148ce1ffb.ngrok.io/plates", {
   method: "GET",
 })
   .then((response) => {
