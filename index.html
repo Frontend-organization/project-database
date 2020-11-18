@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="styles/tablet.css"
+      media="screen and (min-width: 680px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/desktop.css"
+      media="screen and (min-width: 1024px)"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Paytone+One&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e4521333c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="navigation__content">
+        <figure>
+          <img
+            class="navigation-logo"
+            src="assets/logo-gustosa.png"
+            alt="logo gustosa"
+          />
+        </figure>
+        <span class="navigation__search">
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+      <div class="navigation__seeker hidde">
+        <input
+          class="navigation-input"
+          type="text"
+          placeholder="Ingrese el producto"
+        />
+      </div>
+    </nav>
+    <main>
+      <section class="banner">
+        <div class="banner__content">
+          <h1 class="banner-title">Gustoza Pizza</h1>
+          <p class="banner-text">Venta de pizzas artesanales</p>
+        </div>
+      </section>
+      <section class="product-section">
+        <div class="product__title">
+          <h2>Escoge la que mas te guste</h2>
+        </div>
+        <div class="container-grid"></div>
+        <div class="product-more">
+          <button class="product__button">More Items</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container-flex">
+        <div class="footer__city">
+          <h3>Ucayali</h3>
+          <p>Av. Unión #401 Pucallpa</p>
+          <span>+51 986 819 856</span>
+        </div>
+        <div class="footer-subscription">
+          <h3>Mantente conectado</h3>
+          <form action="#" class="footer-form">
+            <input type="text" placeholder="Ingrese su email" />
+            <button type="submit">Regístrate</button>
+          </form>
+          <p>
+            ¡Manténgase conectado con nosotros para obtener una oferta
+            exclusiva!
+          </p>
+        </div>
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/gustosapizzapcl" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://gustoza-pizzaa.netlify.app/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-copyright">
+        <p>
+          Copyright ©2020 All rights reserved | This template is made with ♡ by
+          <a href="https://github.com/Frontend-organization" target="_blank"
+            >FRONTEND INNOVA-TEAM
+          </a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/navigation.js"></script>
+    <script src="js/server.js"></script>
+  </body>
+</html>

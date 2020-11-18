@@ -1,0 +1,37 @@
+.navigation__button i {
+  font-size: 2.5rem;
+}
+
+.navigation__seeker input {
+  display: block;
+  margin: 0 auto;
+}
+
+.banner {
+  padding: 120px 0;
+}
+
+.banner__content {
+  font-size: 4rem;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 330px 330px;
+  grid-gap: 40px;
+  justify-content: center;
+}
+
+.product__card-detail {
+  text-align: center;
+}
+
+.footer-subscription {
+  text-align: left;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.footer-social {
+  margin: 95px 0;
+}
