@@ -152,6 +152,39 @@ main {
   font-size: 2.7rem;
 }
 
+.product__filter-btn {
+  width: 100%;
+  margin: 0 auto 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product__filter-btn .btn {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  background-color: white;
+  background-image: none;
+  color: #e47412;
+  border: 1px solid #e47412;
+}
+
+.btn.active-btn {
+  color: #fff;
+  background-image: linear-gradient(to left, #ffc312, #ee5a24, #ffc312);
+  background-size: 200%;
+  transition: 0.6s;
+}
+
+.product__filter-btn .btn:hover {
+  background-position: right;
+}
+
 .product__cards-container {
   min-width: 290px;
 }
@@ -166,6 +199,7 @@ main {
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
+  border: 2px solid #cec8c8;
 }
 
 .card-info {
