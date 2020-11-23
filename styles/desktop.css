@@ -1,3 +1,7 @@
+.product__filter-btn {
+  width: 100%;
+}
+
 .product__card-result {
   display: flex;
   align-items: center;
