@@ -6,7 +6,7 @@ async function searchPlate(food) {
   const body = JSON.stringify({
     plateName: food,
   });
-  const result = await fetch("https://923148ce1ffb.ngrok.io/plates/search", {
+  const result = await fetch(`${url}/plates/search`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
